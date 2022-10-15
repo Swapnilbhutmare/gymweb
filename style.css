@@ -375,6 +375,9 @@ main
     opacity: 10000;
 
 }
+.footer1 h3{
+    color: white;
+}
 
 @media all and (max-width:800px){
     .footer1{ text-align: center;
@@ -395,6 +398,11 @@ main
     display: flex;
 
 }
+@media all and (max-width:800px){
+    .follow{ text-align: center;
+    
+    }
+}
 
 .follow i{
     display: flex;
@@ -408,12 +416,14 @@ main
     .follow h1{
         font-size: 20px;
         /* flex-direction: column; */
+        text-align: center;
     }
 }
 @media all and (max-width:800px){
     .follow i{ 
         font-size: 20px;
         /* flex-direction: column; */
+        text-align: center;
     }
 }
 .follow i:hover{
